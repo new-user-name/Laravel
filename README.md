@@ -14,7 +14,9 @@ https://localhost/acc/resources/owners/6494
 
 Порядок следования слева можно регулировать вдобавок в 
 D:\php\cargo2\app\Nova\Models\User.php через
+
 ```public static $priority = 4;```
+
 и так для каждой модели.
 Там можно установить фильтр, пропускающий не всё.
 D:\php\cargo2\app\Nova\Filters\User.php
